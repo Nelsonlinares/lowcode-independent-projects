@@ -24,3 +24,14 @@ entregas de paquetes, desarrolladas en FlutterFlow y Firebase.
 - **mapaDeRuta**: Procesamiento de coordenadas para visualización de rutas.
 - **separarLatitud**: Extracción de la latitud desde coordenadas compuestas.
 - **separarLongitud**: Extracción de longitud desde coordenadas compuestas.
+
+## Custom Widgets
+- **MapaEstaticoRutaMapBoxPolyline**: Widget que genera y muestra un mapa 
+  estático de Mapbox con la ruta trazada entre origen y destino. Recibe la 
+  geometría de la ruta codificada, construye la URL de la API de Mapbox con 
+  marcadores diferenciados y la renderiza como imagen, adaptándose a las 
+  dimensiones especificadas.
+- **ImagenDeUrl**: Widget que muestra una imagen desde una URL con soporte 
+  para pantalla completa. Al hacer tap abre la imagen en modo fullscreen con 
+  animación Hero, fondo negro y botón de cierre, mejorando la experiencia 
+  visual para revisión de fotos de entregas.
