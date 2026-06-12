@@ -40,5 +40,13 @@ seguimiento en tiempo real, reportes automatizados y optimización de rutas.
   según criterios de optimización.
 - **urlRutaGoogleMaps**: Construye una URL de Google Maps con origen, destino 
   y múltiples paradas intermedias para navegación directa desde la app.
+
+## Custom Widgets
+- **PrecomputedPolylineMap**: Widget interactivo de Google Maps que recibe una 
+  polilínea precalculada y la anima progresivamente sobre el mapa durante 5 
+  segundos. Interpola puntos intermedios para suavizar el trazado, ajusta 
+  automáticamente la cámara para encuadrar la ruta completa, y coloca 
+  marcadores diferenciados por color para origen (verde), destino (rojo) y 
+  paradas intermedias (azul).
 - **waypointsDirections**: Genera el string de waypoints requerido por la API 
   de Google Directions con soporte para optimización automática de ruta.
